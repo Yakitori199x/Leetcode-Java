@@ -4,6 +4,7 @@ https://leetcode.com/problems/two-sum/
 
 ## Solution 1: Brute force
 
+- ![](http://latex.codecogs.com/gif.latex?\\TC:O(N^2))
 - $TC:O(N^2)$
 - $SC:O(1)$
 
