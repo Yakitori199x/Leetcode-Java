@@ -4,9 +4,8 @@ https://leetcode.com/problems/two-sum/
 
 ## Solution 1: Brute force
 
-- ![](http://latex.codecogs.com/gif.latex?\\TC:O(N^2))
-- $TC:O(N^2)$
-- $SC:O(1)$
+- TC: O(N^2)
+- SC: O(1)
 
 ```java
 class Solution {
@@ -26,8 +25,8 @@ class Solution {
 
 ## Solution 2: Two-pass hash table
 
-- $TC: O(N)$ `(As insert and search operations are amortized to O(1) in hash table)`
-- $SC:O(N)$
+- TC: O(N) `(As insert and search operations are amortized to O(1) in hash table)`
+- SC: O(N)
 - Cannot deal with the case when there are duplicate elements in array `(e.g. target = 6, nums = [1, 2, 3, 3, ...])`
 
 ```java
@@ -54,8 +53,8 @@ class Solution {
 
 ## Solution 3: One-pass hash table
 
-- $TC:O(N)$
-- $SC:O(N)$
+- TC:O(N)
+- SC:O(N)
 - Solve the problem exists in Two-pass hash table
 
 ```java
